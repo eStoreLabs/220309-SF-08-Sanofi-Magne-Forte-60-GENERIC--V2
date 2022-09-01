@@ -328,24 +328,28 @@ flex-direction: column;
 #es-magne-forte.es-magne-forte .es-kv__title {
 font-family: "Asap Condensed", sans-serif;
 letter-spacing: 2px;
-width: 100%;
+width: fit-content;
 text-transform: uppercase;
 text-align: center;
 line-height: 1.5;
-font-size: 50px;
+font-size: 60px;
+margin-bottom: 0;
 -webkit-animation: es-pulse 2s infinite;
         animation: es-pulse 2s infinite;
 -webkit-animation-delay: 3s;
         animation-delay: 3s;
 }
-
+#es-magne-forte.es-magne-forte .es-kv__title p{
+  line-height: 1.1;
+}
 #es-magne-forte.es-magne-forte .es-kv__img {
 max-width: 100%;
-width: 600px;
-padding: 30px;
+width: 500px;
+padding-bottom: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 0;
 }
 #es-magne-forte.es-magne-forte .es-kv__img img {
 width: 100%;
@@ -364,7 +368,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 10px;
-margin-bottom: 10px;
+
 }
 #es-magne-forte.es-magne-forte .es-kv__icon {
 height: 60px;
@@ -372,15 +376,14 @@ height: 60px;
 }
 #es-magne-forte.es-magne-forte .es-kv__text {
 margin: 0 20px;
-font-size: 30px;
+font-size: 25px;
 font-family: "HelveticaNeueLTProBd", sans-serif;
-font-weight: bolder;
 line-height: 1;
 background-color: #a2213e;
 text-transform: uppercase;
 min-width: 400px;
 text-align: center;
-padding: 15px;
+padding: 10px;
 }
 #es-magne-forte.es-magne-forte .es-kv__text:hover{
     background-color: #c42f4f;
@@ -439,13 +442,14 @@ min-width: 250px;
 #es-magne-forte.es-magne-forte .es-benefits__boldText{
     color: #a2213e;
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
     font-family: "HelveticaNeueLTProBd", sans-serif;
 }
 #es-magne-forte.es-magne-forte .es-benefits__text{
     color: #30346d;
     line-height: 1.2;
     margin: 0;
+    font-size: 18px;
 }
 
 #es-magne-forte.es-magne-forte .es-ingr {
@@ -493,13 +497,13 @@ margin-bottom: 80px;
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-ing__mainAnswer{
     text-align: center;
     line-height: 1.5;
     padding: 0px 40px;
-    font-size: 18px;
+    font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-ingr__content{
     display: flex;
@@ -544,6 +548,7 @@ padding: 20px;
     text-align: left;
     margin: 0;
     margin-bottom: 18px;
+    font-size: 20px;
 }
 
 #es-magne-forte.es-magne-forte .activeBtn {
@@ -578,18 +583,11 @@ transform: rotate(180deg);
     max-width: 150px;
     animation: es-pulse 2s infinite;
 }
-#es-magne-forte.es-magne-forte .es-icons__iconImg--magnez{
 
-}
-#es-magne-forte.es-magne-forte .es-icons__iconImg--medicine{
-
-}
-#es-magne-forte.es-magne-forte .es-icons__iconImg--age{
-
-}
 #es-magne-forte.es-magne-forte .es-icons__boldText{
     color: #a2213e;
-    font-size: 24px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
     font-weight: bold;
     margin: 0;
     font-family: "HelveticaNeueLTProBd", sans-serif;
@@ -597,6 +595,9 @@ transform: rotate(180deg);
 #es-magne-forte.es-magne-forte .es-icons__normalText{
     color: #30346d;
     margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1.5px;
 }
 #es-magne-forte.es-magne-forte .es-symptom{
   max-width: 960px;
@@ -773,6 +774,7 @@ margin: 0 auto;
 }
 #es-magne-forte.es-magne-forte .es-cause__textList{
     color: #30346d;
+    font-size: 16px;
 }
 
 #es-magne-forte.es-magne-forte .es-atRisk{
@@ -898,7 +900,7 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-doze__text p{
 color: #30346d;
@@ -908,7 +910,7 @@ min-width: 210px;
 
 }
 #es-magne-forte.es-magne-forte .es-doze__text--small{
-font-size: 14px;
+font-size: 16px;
 margin: 0;
 }
 #es-magne-forte.es-magne-forte .es-doze__line{
@@ -947,7 +949,7 @@ min-width: 320px;
     margin-bottom: 0;
     padding: 3px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-cross_title--second{
     background-color: #00b1ba;
@@ -1011,7 +1013,7 @@ margin: 0 auto;
 }
 #es-magne-forte.es-magne-forte .es-cross__name {
 color: #fff;
-font-size: 14px;
+font-size: 16px;
 font-weight: normal;
 margin: 20px 0;
 font-family: "HelveticaNeueLTProBd", sans-serif;
@@ -1148,6 +1150,9 @@ text-align: center;
 }
 }
 @media screen and (max-width: 561px) {
+  #es-magne-forte.es-magne-forte .es-kv__img{
+    max-width: 300px;
+  }
 #es-magne-forte.es-magne-forte .es-ingr__questionIcon{
   width: 80px;
   right: 0;
@@ -1163,7 +1168,6 @@ text-align: center;
 #es-magne-forte.es-magne-forte .es-kv__single {
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 #es-magne-forte.es-magne-forte .es-kv__icon {
   height: 40px;
