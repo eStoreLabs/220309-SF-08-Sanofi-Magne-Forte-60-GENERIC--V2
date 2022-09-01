@@ -743,7 +743,7 @@ margin: 0 auto;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    min-width: 320px;
+    min-width: 350px;
     margin: 20px;
     min-height: 150px;
 }
