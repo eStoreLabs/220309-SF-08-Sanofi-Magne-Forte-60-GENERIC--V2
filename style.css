@@ -704,6 +704,7 @@ align-items: center;
 }
 #es-magne-forte.es-magne-forte .es-symptom__single p{
   margin: 0;
+  letter-spacing: 1.5px;
 }
 #es-magne-forte.es-magne-forte .es-symptom__single, .es-symptom__single p:hover{
   transform: scale(1.05);
