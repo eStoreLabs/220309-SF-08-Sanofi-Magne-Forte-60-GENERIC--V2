@@ -537,13 +537,13 @@ margin-bottom: 60px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 #es-magne-forte.es-magne-forte .es-ing__mainAnswer{
     text-align: center;
     line-height: 1;
     padding: 0px 40px;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 #es-magne-forte.es-magne-forte .es-ingr__content{
@@ -589,8 +589,9 @@ padding: 20px;
     text-align: left;
     margin: 0;
     margin-bottom: 18px;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 1.5px;
+    
 }
 
 #es-magne-forte.es-magne-forte .activeBtn {
@@ -824,7 +825,7 @@ margin: 0 auto;
 }
 #es-magne-forte.es-magne-forte .es-cause__textList{
     color: #324a8b;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #es-magne-forte.es-magne-forte .es-atRisk{
@@ -859,6 +860,10 @@ display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: 1.5px;
+}
+
+#es-magne-forte.es-magne-forte .es-atRisk__text{
+  font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-atRisk__dataCtn{
     display: flex;
@@ -948,26 +953,32 @@ font-size: 20px;
     justify-content: space-between;
     align-items: flex-start;
     font-weight: bold;
+    font-size: 20px;
 }
 #es-magne-forte.es-magne-forte .es-doze__textCtn{
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     font-size: 20px;
+    color: #324a8b;
 }
-#es-magne-forte.es-magne-forte .es-doze__text p{
+#es-magne-forte.es-magne-forte .es-doze__text {
 color: #324a8b;
 margin: 5px;
 line-height: 1.2;
 min-width: 210px;
-font-size: 20px;
 
 }
+#es-magne-forte.es-magne-forte .es-doze__textWho{
+  font-size: 25px;
+  color: #324a8b;
+}
 #es-magne-forte.es-magne-forte .es-doze__text--small{
-font-size: 16px;
+font-size: 18px;
 margin: 0;
 letter-spacing: 1.5px;
 font-weight: 200;
+color: #324a8b;
 }
 #es-magne-forte.es-magne-forte .es-doze__line{
     width: 80%;
