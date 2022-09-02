@@ -409,12 +409,12 @@ height: 60px;
 }
 #es-magne-forte.es-magne-forte .es-kv__text {
 margin: 0 20px;
-font-size: 25px;
+font-size: 30px;
 font-family: "HelveticaNeueLTProBd", sans-serif;
 line-height: 1;
 background-color: #a2203e;
 text-transform: uppercase;
-min-width: 340px;
+min-width: 380px;
 text-align: center;
 padding: 10px;
 }
@@ -499,7 +499,7 @@ padding: 40px 0;
 width: 100%;
 text-align: center;
 text-transform: uppercase;
-font-size: 20px;
+font-size: 30px;
 background-color: #a2203e;
 position: relative;
 
@@ -565,7 +565,7 @@ height: auto;
 background: #a2203e;
 color: #fff;
 font-weight: bold;
-font-size: 24px;
+font-size: 30px;
 width: 100%;
 padding: 10px;
 cursor: pointer;
@@ -657,7 +657,7 @@ transform: rotate(180deg);
   color: #fff;
   text-align: center;
   padding: 25px;
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
 }
 #es-magne-forte.es-magne-forte .es-symptom__Ctn{
@@ -774,7 +774,7 @@ margin: 0 auto;
     color: #fff;
     text-align: center;
     padding: 25px;
-    font-size: 24px;
+    font-size: 30px;
     margin: 0;
 }
 #es-magne-forte.es-magne-forte .es-cause__Ctn{
@@ -875,6 +875,7 @@ display: flex;
 }
 #es-magne-forte.es-magne-forte .es-atRisk__single p{
   margin: 5px;
+  
 }
 #es-magne-forte.es-magne-forte .es-atRisk__single:hover{
     background-color: #fff;
@@ -887,11 +888,12 @@ display: flex;
     transition: .5s ease-in-out;
 }
 #es-magne-forte.es-magne-forte .es-atRisk__percentage{
-    font-size: 40px;
+    font-size: 60px;
     margin-right: 10px;
 }
 #es-magne-forte.es-magne-forte .es-atRisk__gender{
     text-transform: uppercase;
+    font-size: 24px;
 }
 
 #es-magne-forte.es-magne-forte .es-doze {
@@ -920,7 +922,7 @@ background: #a2203e;
 color: #fff;
 font-family: "Asap Condensed", sans-serif;
 font-weight: bold;
-font-size: 24px;
+font-size: 30px;
 width: 100%;
 padding: 10px;
 cursor: pointer;
@@ -1001,7 +1003,7 @@ background-size: cover;
     text-align: center;
     margin-bottom: 0;
     padding: 3px;
-    font-size: 24px;
+    font-size: 30px;
 }
 #es-magne-forte.es-magne-forte .es-cross_title p{
   margin: 0;
