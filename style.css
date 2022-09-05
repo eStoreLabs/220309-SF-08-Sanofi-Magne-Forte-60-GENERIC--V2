@@ -441,7 +441,9 @@ line-height: 1;
 #es-magne-forte.es-magne-forte .es-benefits__singleCtn{
 padding: 10px;
 max-width: 260px;
+position: relative;
 }
+
 #es-magne-forte.es-magne-forte .es-benefits__singleCtn--leftBorder{
     border-left: 3px solid #324a8b;
     text-align: left;
@@ -456,6 +458,7 @@ max-width: 260px;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 #es-magne-forte.es-magne-forte .es-benefits__singleCtn--rightBorder{
     border-right: 3px solid #324a8b;
@@ -471,6 +474,7 @@ max-width: 260px;
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 10;
 }
 #es-magne-forte.es-magne-forte .es-benefits__boldText{
     color: #a2203e;
@@ -1189,9 +1193,88 @@ text-align: center;
   }
 }
 @media screen and (max-width: 900px){
-  #es-magne-forte.es-magne-forte .es-symptom__img{
-    display: none;
-   }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftOne{
+    position: absolute;
+    top: 210px;
+    left: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftTwo{
+    position: absolute;
+    top: 300px;
+    left: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftThree{
+    position: absolute;
+    top: 360px;
+    left: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightOne{
+    position: absolute;
+    top: 170px;
+    right: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightTwo{
+    position: absolute;
+    top: 230px;
+    right: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightThree{
+    position: absolute;
+    top: 325px;
+    right: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFour{
+    position: absolute;
+    top: 380px;
+    right: 16%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFive{
+    position: absolute;
+    top: 590px;
+    right: 16%;
+  }
+}
+@media screen and (max-width: 875px){
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftOne{
+    position: absolute;
+    top: 210px;
+    left: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftTwo{
+    position: absolute;
+    top: 300px;
+    left: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftThree{
+    position: absolute;
+    top: 360px;
+    left: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightOne{
+    position: absolute;
+    top: 170px;
+    right: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightTwo{
+    position: absolute;
+    top: 230px;
+    right: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightThree{
+    position: absolute;
+    top: 325px;
+    right: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFour{
+    position: absolute;
+    top: 380px;
+    right: 15%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFive{
+    position: absolute;
+    top: 590px;
+    right: 15%;
+  }
 }
 @media screen and (max-width: 840px){
   #es-magne-forte.es-magne-forte .es-benefits__singleCtn--rightBorder::before{
@@ -1199,6 +1282,94 @@ text-align: center;
   }
   #es-magne-forte.es-magne-forte .es-benefits__singleCtn--leftBorder::before{
     display: none;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftOne{
+    position: absolute;
+    top: 210px;
+    left: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftTwo{
+    position: absolute;
+    top: 300px;
+    left: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftThree{
+    position: absolute;
+    top: 360px;
+    left: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightOne{
+    position: absolute;
+    top: 170px;
+    right: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightTwo{
+    position: absolute;
+    top: 230px;
+    right: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightThree{
+    position: absolute;
+    top: 325px;
+    right: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFour{
+    position: absolute;
+    top: 380px;
+    right: 13%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFive{
+    position: absolute;
+    top: 590px;
+    right: 13%;
+  }
+}
+@media screen and (max-width: 840px){
+  #es-magne-forte.es-magne-forte .es-benefits__singleCtn--rightBorder::before{
+    display: none;
+  }
+  #es-magne-forte.es-magne-forte .es-benefits__singleCtn--leftBorder::before{
+    display: none;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftOne{
+    position: absolute;
+    top: 210px;
+    left: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftTwo{
+    position: absolute;
+    top: 300px;
+    left: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--leftThree{
+    position: absolute;
+    top: 360px;
+    left: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightOne{
+    position: absolute;
+    top: 170px;
+    right: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightTwo{
+    position: absolute;
+    top: 230px;
+    right: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightThree{
+    position: absolute;
+    top: 325px;
+    right: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFour{
+    position: absolute;
+    top: 380px;
+    right: 11%;
+  }
+  #es-magne-forte.es-magne-forte .es-symptom__single--rightFive{
+    position: absolute;
+    top: 590px;
+    right: 11%;
   }
 }
 @media screen and (max-width: 769px) {
@@ -1218,6 +1389,9 @@ text-align: center;
   position: static;
   padding: 40px 20px;
 }
+#es-magne-forte.es-magne-forte .es-symptom__img{
+  display: none;
+ }
 }
 @media screen and (max-width: 561px) {
   #es-magne-forte.es-magne-forte .es-kv__img{
